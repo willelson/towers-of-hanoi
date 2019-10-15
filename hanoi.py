@@ -44,7 +44,7 @@ class TowersOfHanoi():
         self.moves += 1
 
     def move_rings(self, n, origin, destination, spare):
-        """ sMove all rings from the origin to tower to the destination tower
+        """ Move all rings from the origin to tower to the destination tower
 
         param n: Index of tower from which the stack of rings is moved from
         type  n: int
